@@ -1,12 +1,12 @@
 # Amazon Scraper
 
-Este projeto permite realizar o scraping de produtos da Amazon com base em um termo de pesquisa. O backend utiliza Express, Axios e JSDOM para coletar os dados, enquanto o frontend foi desenvolvido com Vite, Vanilla JS e CSS.
+Este projeto permite realizar o scraping de produtos da Amazon com base em um termo de pesquisa. O backend utiliza Express, Axios e JSDOM para coletar os dados, enquanto o frontend foi desenvolvido com Vite, Vanilla JS e CSS. 
 
 ## Tecnologias Utilizadas
 
-- **Backend**: Express, Axios, JSDOM
+- **Backend**: Express, Axios, JSDOM, cors
 - **Frontend**: Vanilla JS, Vite, CSS
-
+- **api**: scrapperAPI
 ## Como Rodar o Projeto
 
 ### 1. Instalar Dependências
@@ -65,6 +65,4 @@ Como Funciona
 
 Considerações Finais
 
-    O backend lida com possíveis erros na requisição e na coleta de dados.
-
-    O frontend exibe mensagens de erro se algo der errado durante a busca.
+    Para este projeto utilizei a api do webscrapper para poder passar pelas proteções da Amazon, mas mantive o código como seria caso não houvessem as proteções em comentário. 
