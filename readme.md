@@ -65,4 +65,6 @@ Como Funciona
 
 Considerações Finais
 
-    Para este projeto utilizei a api do webscrapper para poder passar pelas proteções da Amazon, mas mantive o código como seria caso não houvessem as proteções em comentário. 
+    Para este projeto utilizei a api do scrapperAPI para poder passar pelas proteções da Amazon, mas mantive o código como seria caso não houvessem as proteções em comentário.
+
+    A conta que utilizei e em modo Trial(7 dias), então caso a api não esteja funcionando pode ser necessário alterar a APIKEY no arquivo server.js. 
